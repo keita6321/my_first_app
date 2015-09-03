@@ -9,9 +9,9 @@
     <p><b>Name: </b><%= @idea.name %></p>
     <p><b>Description: </b><%= @idea.description %></p>
     <p>
-      <%= link_to 'Edit', edit_idea_path(@idea) %> |
-      <%= link_to 'Destroy', @idea, data: { confirm: 'Are you sure?' }, method: :delete %> |
-      <%= link_to 'Back', ideas_path %>
+      <%= link_to '編集', edit_idea_path(@idea) %> |
+      <%= link_to '消す', @idea, data: { confirm: '本当に消しますか' }, method: :delete %> |
+      <%= link_to '戻る', ideas_path %>
     </p>
 
     <h3>Comments</h3>
@@ -25,8 +25,8 @@
     <% end %>
 
 <%= render 'comments/form' %>
-<%= link_to 'Edit', edit_idea_path(@idea) %> |
-<%= link_to 'Back', ideas_path %>
+<%= link_to '編集', edit_idea_path(@idea) %> |
+<%= link_to '戻る', ideas_path %>
 
 </div>
 </div>

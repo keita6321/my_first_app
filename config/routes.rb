@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+  get 'burari/go'
+
+  get 'burari/result'
+
   resources :comments
   get 'pages/info'
 
-  root to: redirect('/ideas')
+  root to: redirect('/burari/result')
   resources :ideas
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

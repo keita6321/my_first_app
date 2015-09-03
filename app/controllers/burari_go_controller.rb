@@ -1,0 +1,2 @@
+class BurariGoController < ApplicationController
+end
