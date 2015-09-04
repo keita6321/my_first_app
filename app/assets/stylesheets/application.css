@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
- body { padding-top: 60px; }
+ body { padding-top: 60px;
+ background-color: #F0FFF0
+ }
  footer { margin-top: 100px; }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }

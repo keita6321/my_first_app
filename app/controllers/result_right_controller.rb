@@ -1,0 +1,2 @@
+class ResultRightController < ApplicationController
+end

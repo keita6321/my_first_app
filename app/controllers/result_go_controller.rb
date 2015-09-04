@@ -1,0 +1,2 @@
+class ResultGoController < ApplicationController
+end

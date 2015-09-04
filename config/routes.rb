@@ -3,6 +3,13 @@ Rails.application.routes.draw do
 
   get 'burari/result'
 
+  get 'burari/go'
+
+  get 'burari/go'
+
+  get 'burari/result'
+
+  get '/result_go' => 'burari#result_go'
   resources :comments
   get 'pages/info'
 
